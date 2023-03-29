@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+}
+:root{
+    --fw-regular: 400;
+    --fw-semi: 500;
+    --fw-bold: 700;
+    --clr-blue:aliceblue;
+}
+body{
+    /* background-color: aliceblue; */
+    font-weight: var(--fw-regular);
+    background-color: var(--clr-blue);
+}
+
+.parentdiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+}
+
+.heading-2{
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 1rem;
+}
+
+.section1, .subsection1, .subsection2{
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+.section1{
+    background-color: white;
+}
+
+.section1 h3{
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 1rem;
+}
+
+.section1 p{
+    margin-bottom: 1rem;
+    color: hsl(203, 14%, 75%);
+}
+
+.section2{
+    display: flex;
+    /* flex-direction: column; */
+
+}
+.subsection2 p{
+    font-weight: 100;
+}
+
+li{
+    list-style: none;
+}
+.subsection1{
+
+    flex: 50%;
+    background: hsl(179, 70%, 36%);
+    color: white;
+
+    /* border: 2px solid red; */
+
+}
+/* .subsection1 h3{
+    color: white;
+} */
+
+.subsection2{
+    /* padding: 2rem 1rem ; */
+    flex: 50%;
+    background: hsl(179, 62%, 43%);
+    color: white;
+
+    /* border: 2px solid yellow; */
+}
+
+button{
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    padding-inline: 6rem;
+    padding-block: 1rem;
+    border: none;
+    
+    
+}
+
+.mt-5{
+    margin-top: 3rem;
+}
+
+/* h2{
+    color: hsl(179, 62%, 43%);
+} */
